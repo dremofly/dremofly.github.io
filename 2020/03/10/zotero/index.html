@@ -11,7 +11,7 @@
 
 
 <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="author" content="Hong Tang">
     <meta name="renderer" content="webkit">
@@ -22,7 +22,7 @@
     <meta name="description" content>
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hong&#39;s Page</title>
+    <title>文献管理利器——Zotero · Hong&#39;s Page</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -198,17 +198,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
     <!-- 百度统计  -->
     
-    <!-- 谷歌统计  -->
+    <!-- 谷歌统计  --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
     
 </head>
 
     
+        <body class="post-body">
     
-<header class="header">
+    
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/">Hong&#39;s Page.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">文献管理利器——Zotero</a>
+            </div>
+    </div>
     
     <a class="home-link" href="/">Hong's Page.</a>
 </header>
@@ -220,24 +231,74 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            文献管理利器——Zotero
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class="post-intro-tags">
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="科研">科研</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">1k</span>阅读时长: <span class="post-count reading-time">3 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2020/03/10</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -338,197 +399,91 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/12/01/latex-multable/">
-            
-                <span>Latex多行表格</span>
-        </a>
-        <div class="abstract-content">
-            Latex 多行表格
-有时候我们在latex需要绘制多行多列的复杂表格。需要用到multirow这个packge。
-例如下图的表格。
+            <main class="main post-page">
+    <article class="article-entry">
+        <h1 id="zotero使用"><a href="#zotero使用" class="headerlink" title="zotero使用"></a>zotero使用</h1><h2 id="01-介绍"><a href="#01-介绍" class="headerlink" title="01. 介绍"></a>01. 介绍</h2><p>尝试了许多的文献管理软件，JabRef, Mendeley, Paperpile。最后发现，他们总有一些缺陷，或者说难以满足我的一些需求，直到使用了zotero以后，我才找到了一款最适合我的软件。对于我来说以上几个软件的缺点：</p>
+<ul>
+<li>JabRef: 对于中文的支持非常的差，界面不够友好。在word中安装插件比较麻烦（虽然我使用的是LaTex）。</li>
+<li>Mendeley: mendeley的使用体验实际上是非常好的，但是还是有一些缺点。同步问题。无法在google docs中使用</li>
+<li>Paperpile: paperpile作为一个在线的文件管理系统，有着其他软件没有的特点。paperpile可以之间在搜索文章的时候，在文章条目的后面显示出paperpile的添加命令。如果已经添加的文章也会显示出来，这样可以避免重复地添加。paperpile的缺点就是pdf的阅读体验不好。只能下下来阅读，这又需要额外的文件管理。</li>
+</ul>
+<h2 id="02-为什么想要使用zotero"><a href="#02-为什么想要使用zotero" class="headerlink" title="02. 为什么想要使用zotero"></a>02. 为什么想要使用zotero</h2><p>作为一款功能强大的开源软件，很早就听闻了zotero的大名，但是之前配置的方法不太对，没有发现zotero的强大，所以没有使用。这次因为遇到一个需求问题，转而使用zotero，发现zotero真的是十分的好用。</p>
+<p>想要使用zotero是因为想要使用word类的应用来记录多篇论文的阅读心得，但是如果使用word的话，会存在一个问题，就是word的文件管理能量很弱，必须依靠文件夹来管理。因此想使用google docs来写，然后就不用去管文件的位置在哪里了，通通embed到notion里面，用notion的数据库功能来实现这些idea的管理。</p>
+<p>这时候就会遇到一个问题，就是google docs里面不能使用原来使用的mendeley来实现reference的插入，如果使用paperpile的话，它总有一天会过期的，而我又不想续费了。因此，就想使用大名鼎鼎的zotero来做google docs的cite的插入。</p>
+<p>总结zotero的几个优点，也是因为正好满足了我的需求：</p>
+<ul>
+<li>在google docs中插入引用</li>
+<li>文献的文件管理通过zotfile，可以很方便的使用其他pdf阅读器进行阅读</li>
+<li>同步问题，可以使用zotfile插件解决，通过zotfile发送到tablet的功能，这样我使用一台主电脑，其他的机子就可以通过发送到tablet功能获取想要的文件。</li>
+</ul>
+<h2 id="03-zotfile的使用"><a href="#03-zotfile的使用" class="headerlink" title="03. zotfile的使用"></a>03. zotfile的使用</h2><p>zotfile是一款功能无比强大的插件。主要的功能是对zotero中的文件进行管理。</p>
+<p>zotfile的使用可以参考下面的网页：</p>
+<p><a href="https://www.jianshu.com/p/13bbb8ad7afd" target="_blank" rel="noopener">使用Zotero管理文献</a></p>
+<p>主要流程为，配置zotfile的插件，添加文档，zotfile自动将文档命名并且移动到制定的目录下面。</p>
+<ol>
+<li>配置zotfile插件</li>
+</ol>
+<p>打开 工具→zotfile prereference，首先进行general settings，</p>
+<p>第一个source folder for attaching new files是用来监控的文件夹，第二个location of files是最后zotfile会把pdf复制到这里。</p>
+<p><img src="https://i.loli.net/2020/03/10/9kZ3TW86lfV4jne.png" alt="zotero/Untitled.png"></p>
+<ol>
+<li>获取文件</li>
+</ol>
+<p>配置完文件以后就可以开始使用了。首先打开一个网页，利用zotero的chrome插件将它添加到zotero中，这时候pdf也会一起被添加了。</p>
+<p><img src="https://i.loli.net/2020/03/10/vmBw7qz6c5FXW4R.png" alt="zotero/Untitled%201.png"></p>
+<p>但是因为这样的pdf不太好用，因此，我们将文件移动到downloads文件夹，也就是zotfile所监控的文件夹里面，</p>
+<p>点击attach new file就会自动识别，并对文件进行移动和重命名了。</p>
+<p><img src="https://i.loli.net/2020/03/10/iZMUdwqISoaA4hT.png" alt="zotero/Untitled%202.png"></p>
+<p>还有一个更加简单的方法，就是添加了文件以后点击Rename Attachments，就会自动将文件移动到zotfile指定的文件夹，并重命名文件。</p>
+<p><img src="https://i.loli.net/2020/03/10/9TkiVcELSdfJvjX.png" alt="zotero/Untitled%203.png"></p>
+<ol>
+<li>如何发送到平板上</li>
+</ol>
+<p>zotfile preference里面还有一个tablet settings，勾选下面的use zotfile to send and get files from tablet就能实现了。</p>
+<p><img src="https://i.loli.net/2020/03/10/1D2eJkgto8dfc6u.png" alt="zotero/Untitled%204.png"></p>
+<p>这时候zotero主页里面会多出两个文件夹。</p>
+<p><img src="https://i.loli.net/2020/03/10/6zavrTZVcAxj4MR.png" alt="zotero/Untitled%205.png"></p>
 
-Latex/Untitled.png
-
-123456789101112131415161718192021222324\newcolumntype&#123;M&#125;[1]&#123;&gt;&#123;\centering\arraybackslash&#125;m&#123;#1&#125;&#125;\begin&#123;table&#125;[htbp]  \centering    \caption&#123;Multi rows an...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/12/01</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="latex">latex</a>
-    
-</div>
-            
-        </div>
     </article>
+    <!-- license  -->
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/11/23/tmux-vim/">
-            
-                <span>tmux+vim</span>
-        </a>
-        <div class="abstract-content">
-            使用tmux和vim配置自己的IDE。
-
+        <div class="license-wrapper">
+            <p>原文作者：<a href="http://dremofly.github.io">Hong Tang</a>
+            </p><p>原文链接：<a href="http://dremofly.github.io/2020/03/10/zotero/">http://dremofly.github.io/2020/03/10/zotero/</a>
+            </p><p>发表日期：<a href="http://dremofly.github.io/2020/03/10/zotero/">March 10th 2020, 5:21:32 pm</a>
+            </p><p>更新日期：<a href="http://dremofly.github.io/2020/03/10/zotero/">March 10th 2020, 5:26:13 pm</a>
+            </p><p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/11/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/11/23/hello-world/">
-            
-                <span>欢迎界面</span>
-        </a>
-        <div class="abstract-content">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick Start
-Create a new post
-1$ hexo new "My New Post"
-More info: Writing
-Run server
-1$ hexo server
-M...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/11/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/11/23/test/">
-            
-                <span>久未更博</span>
-        </a>
-        <div class="abstract-content">
-            Introduction
-好久没有写博客了。测试一下如何上传博客。
-过程
-首先使用 1hexo new "test"
-创建博文，然后使用编辑器编辑博文。 编辑完成以后，使用 1hexo generate
-可以生成新的网页文件。 最后使用 1hexo deploy
-对博客进行同步。
-
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/11/23</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/05/14/etherum基本术语/">
-            
-                <span>Ethereum基本术语</span>
-        </a>
-        <div class="abstract-content">
-            Ethereum 基本术语
-Introduction
-学习Ethereum从基本术语开始。
-术语
-Ethereum: 一个开源的，可编程的Blockchain平台 Ethereum Virtual machine: 在执行代码和机器之间加入了一层抽象。用来提高软件的可移植性。 参考 * Smart Contract*: 用代码书写的合约。更具体地，是在Ethereum Blockchain上含有EVM函数的对象。
-
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/14</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="Ethereum">Ethereum</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/04/22/latex插入图片/">
-            
-                <span>latex插入图片</span>
-        </a>
-        <div class="abstract-content">
-            导入包:
-12\usepackage&#123;graphicx&#125;	% 插入图片的包\usepackage&#123;float&#125;		% 设置位置的包
-图片的位置导入：
-1\graphicspath&#123;&#123;./pic/&#125;&#125;
-插入图片
-123456\begin&#123;figure&#125;[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形	\centering %图片居中	\includegraphics[width=0.7\textwidth]&#123;fig1.png&#125; %插入图片，[]中设置图片...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/04/22</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="latex">latex</a>
-    
-</div>
-            
-        </div>
-    </article>
     
     <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href="/2020/03/02/hexo-math/" title="在hexo中使用mathjax">
+                    <div class="prevTitle">在hexo中使用mathjax</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
+    
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -613,6 +568,24 @@ Ethereum: 一个开源的，可编程的Blockchain平台 Ethereum Virtual machin
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#zotero使用"><span class="toc-number">1.</span> <span class="toc-text">zotero使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#01-介绍"><span class="toc-number">1.1.</span> <span class="toc-text">01. 介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#02-为什么想要使用zotero"><span class="toc-number">1.2.</span> <span class="toc-text">02. 为什么想要使用zotero</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#03-zotfile的使用"><span class="toc-number">1.3.</span> <span class="toc-text">03. zotfile的使用</span></a></li></ol></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -895,6 +868,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->    
      
     </body>
 </html>
