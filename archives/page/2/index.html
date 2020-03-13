@@ -346,174 +346,39 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2020/03/13/paper1/">
+        <a class="abstract-title" href="/2019/04/22/latex插入图片/">
             
-                <span>【Paper sharing(1)】An Overview on Smart Contracts Challenges, Advances and Platforms</span>
+                <span>latex插入图片</span>
         </a>
         <div class="abstract-content">
-            Author: Zibin Zheng (SYU)
-00. 摘要
-这篇文章主要讲的是一个smart contract的survey。2020年挂在arxiv上的一篇文章。虽然最近比特币“减半”了，单还是想要研究一下智能合约。
-01. 引入
-对于一个survey来说没有具体的问题，文章的写作目的主要是为了研究智能合约技术，因为智能合约技术有很多的优点。
-02. 设计
-这篇文章的贡献：
-
-研究了智能合约的整个生命周期中存在的一些重要挑战，以前reveiw了目前的一些解决这些挑战的方法和思路。
-详细比较了目前的几个流行的智能合约平台。
-总结了不同的智能合约应用
-
-03. 实验
-04. 总结
-了...
+            导入包:
+12\usepackage&#123;graphicx&#125;	% 插入图片的包\usepackage&#123;float&#125;		% 设置位置的包
+图片的位置导入：
+1\graphicspath&#123;&#123;./pic/&#125;&#125;
+插入图片
+123456\begin&#123;figure&#125;[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形	\centering %图片居中	\includegraphics[width=0.7\textwidth]&#123;fig1.png&#125; %插入图片，[]中设置图片...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/13</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/04/22</span>
             </div>
             <!-- tags  -->
             
             <div class="abstract-tags">
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="paper sharing">paper sharing</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="latex">latex</a>
     
 </div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2020/03/12/matlab-boxplot/">
-            
-                <span>使用matlab画boxplot</span>
-        </a>
-        <div class="abstract-content">
-            00. 介绍
-如何使用matlab画boxplot（箱线图）。在我的使用过程中使用到的是最后一种情况，也就是04. 多种不同长度数据的情况
-官方文档
-01. 单个数据的情况
-最简单的方法，直接使用函数boxplot
-1boxplot(x)
-其中x是一个vector，得到如图
-
-单组数据
-
-03. 多组相同长度的数据
-对于有多组数据的情况，需要画多个box的情况，(以下图片代码来自官方文档)
-12345678x = randn(100,25); % x的为100行，25列。其中列对应的数据都组数，也就是box的数量。行对应的是每个box中的数据点数figuresubplot(2,1,1)b...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/12</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="matlab">matlab</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="data visulization">data visulization</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2020/03/10/zotero/">
-            
-                <span>文献管理利器——Zotero</span>
-        </a>
-        <div class="abstract-content">
-            zotero使用
-01. 介绍
-尝试了许多的文献管理软件，JabRef, Mendeley, Paperpile。最后发现，他们总有一些缺陷，或者说难以满足我的一些需求，直到使用了zotero以后，我才找到了一款最适合我的软件。对于我来说以上几个软件的缺点：
-
-JabRef: 对于中文的支持非常的差，界面不够友好。在word中安装插件比较麻烦（虽然我使用的是LaTex）。
-Mendeley: mendeley的使用体验实际上是非常好的，但是还是有一些缺点。同步问题。无法在google docs中使用
-Paperpile: paperpile作为一个在线的文件管理系统，有着其他软件没有的特...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/10</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="科研">科研</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2020/03/02/hexo-math/">
-            
-                <span>在hexo中使用mathjax</span>
-        </a>
-        <div class="abstract-content">
-            介绍
-这个博客使用的主题是archer。而archer是不支持mathjax的，因此编写有公式的文章的时候就好出现问题。这篇文章主要是为了解决这个问题，并且介绍在之后的写作过程中需要注意的问题。 这篇文章主要参考是：https://www.xudong.live/posts/62947.html。
-添加mathjax的支持
-在文件夹themes/archer/layout下添加新文件mathjax.ejs，其内容为 1234567891011121314151617181920212223242526272829&lt;% if (theme.mathjax.enable)&#123; ...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/02</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2020/03/01/hash/">
-            
-                <span>哈希函数</span>
-        </a>
-        <div class="abstract-content">
-            哈希函数
-哈希函数在密码学中是非常重要的，这篇文章里面主要谈论的哈希函数也是在密码学中的哈希函数。 首先我们看一下一般的哈希函数的定义。一般的哈希函数是一个数学函数，其需要满足三个特点： - 输入可以是任意长度的字符串。 - 输出是固定长度的。 - 函数的计算时间比较短，从算法的角度上来说，时间复杂度为O(n) 对于密码学中的哈希函数有需要额外的三个特性要求： - 无碰撞性(collision-resistance) - 隐藏性（hiding） - 制作谜题的友好性 （puzzle-friendliness）
-无碰撞性
-碰撞的定义指的是，两个不同的输入经过哈希函数以后的输出是一样的。因此...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/01</span>
-            </div>
-            <!-- tags  -->
             
         </div>
     </article>
     
     <!-- paginator  -->
+    
+    <nav class="page-nav">
+        <a class="extend prev" rel="prev" href="/archives/">&#60; PREV</a><a class="page-number" href="/archives/">1</a><span class="page-number current">2</span>
+    </nav>
     
 </main>
             <!-- profile -->
